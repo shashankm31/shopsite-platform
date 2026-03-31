@@ -26,7 +26,7 @@ resource "aws_iam_policy" "github_deploy_policy" {
             {
                 Effect = "Allow"
                 Action = [
-                    "cloudfront:CreateIInvalidation"
+                    "cloudfront:CreateInvalidation"
                 ],
                 Resource = "*"
             }
